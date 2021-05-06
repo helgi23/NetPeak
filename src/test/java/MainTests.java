@@ -25,4 +25,9 @@ public class MainTests extends DriverSettings {
     public void errorMessageIsDisplayed(){
         formPage.errorMessage();
     }
+
+    @Test(priority = 5)
+    public void nameFieldFill(){
+        formPage.nameFieldFill(ConfigProperties.getProperty("name"));
+    }
 }

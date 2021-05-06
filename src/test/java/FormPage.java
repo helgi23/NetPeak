@@ -40,7 +40,7 @@ public class FormPage {
     }
 
     public void errorMessage() {
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         if (errorMessage.isDisplayed()) {
             System.out.println("Message is Displayed!");
         } else {
