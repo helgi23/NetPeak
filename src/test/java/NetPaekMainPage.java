@@ -23,7 +23,7 @@ public class NetPaekMainPage {
     }
 
 
-    public void switchWind() {
+    public void switchTab() {
         ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
         driver.switchTo().window(tabs2.get(1));
     }

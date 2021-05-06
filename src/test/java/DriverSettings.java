@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class DriverSettings {
 
     public static NetPaekMainPage netPaekMainPage;
+    public static CoursesPage coursesPage;
     public static CareerPage careerPage;
     public static FormPage formPage;
     public static WebDriver driver;
@@ -19,6 +20,7 @@ public class DriverSettings {
         WebDriver driver = new ChromeDriver();
 
         netPaekMainPage = new NetPaekMainPage(driver);
+        coursesPage = new CoursesPage(driver);
         careerPage = new CareerPage(driver);
         formPage = new FormPage(driver);
 
