@@ -111,7 +111,7 @@ public class FormPage {
         Assert.assertEquals(hex, "#ff0000");
     }
 
-    public void coursesBtnClick(){
+    public void coursesBtnClick() {
         coursesBtn.click();
     }
 
