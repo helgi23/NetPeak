@@ -14,7 +14,7 @@ public class NetPaekMainPage {
         this.driver = driver;
     }
 
-    @FindBy(xpath = "//body/div[@id='allrecords']/div[@id='rec278727844']/div[1]/div[1]/div[1]/div[2]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[4]/a[1]")
+    @FindBy(xpath = "//body/div[@id='allrecords']/div[@id='rec278727844']/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[4]/a[1]")
     private WebElement CareerBtn;
 
 
